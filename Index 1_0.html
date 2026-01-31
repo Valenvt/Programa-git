@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Estructura general -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto IPS Colsubsidio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <!-- Formulario -->
+    <div class="container">
+        <div id="inicio" class="form-section">
+            <h2>INICIO SESIÓN</h2>
+            <br>
+            <p>Inicio sisión con tu cuenta.</p>
+            <br>
+            <label for="tipoIni">Tipo de documento</label>
+            <select id="tipoIni">
+                <option value="cc">Cédula de ciudadania</option>
+                <option value="ti">Tarjeta de identidad</option>
+                <option value="ce">Cédula de extranjería</option>
+            </select>
+            <label for="documentoIni">Número de documento</label>
+            <input type="text" id="documentoIni" placeholder="Ingresa tu número">
+            <label for="password">Contraseña</label>
+            <input type="text" id="password" placeholder="Introduce tu contraseña">
+            <br>
+            <button href="PantallaInicio.html">Inicia Sesión</button>
+            <div class="Registrar">
+                <br><p>No tienes cuenta, <a href="registro.html"; return false;>Registrate</a></p>
+            </div>
+        </div>        
+            <!-- Bienvenida -->
+                <aside class="welcome-section">
+                    <h2><strong>Bienvenido</strong> a colsubsidio Virtual</h2>
+                    <p>Para mejorar tu experiencia y proteger tus datos, crea tu cuenta o inicia sesión si ya tienes una</p>
+                    <img src="../img/family.webp" alt="Familia">
+                </aside>
+        </div>
+        <script src="../js/main.js"></script>
+</body>
+</html>
